@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  min-width: 0;
 }
 
 body {
@@ -21,4 +22,55 @@ body {
 #topBannerAnchor {
   color: rgb(26, 26, 255);
   font-weight: 1000;
+}
+
+#welcomeContainer {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 5px solid rgb(135, 135, 135);
+  max-width: 400px;
+  min-width: 0;
+}
+
+.wrap1 {
+  display: flex;
+  justify-content: center;
+}
+
+.welcomeBanner {
+  display: flex;
+  justify-content: center;
+}
+
+#adBanner {
+  border: 1px solid red;
+  background-color: blueviolet;
+  max-width: 600px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 40px;
+}
+
+#adBannerp1 {
+  color: lime;
+  font-size: 30px;
+}
+
+#adBannerp2 {
+  color: #fff;
+  font-size: 30px;
+}
+
+#adBannerp3 {
+  color: lime;
+  font-size: 30px;
+  color: #fff;
+  background-color: black;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
 }
